@@ -46,10 +46,12 @@ a.top {
 }
 
 a.top:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.8);
     border: 1px solid #a2c5ff;
-    background-color: rgba(192, 234, 255, 0.60);
+    background-color: rgba(88, 144, 255, 0.80);
     -webkit-box-shadow: 0 0 15px #61a4ff;
     box-shadow: 0 0 15px #61a4ff;
-    -webkit-transition: all 0.1s linear;
-    transition: all 0.1s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
