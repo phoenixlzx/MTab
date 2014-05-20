@@ -1,0 +1,19 @@
+{
+    "name": "MTab",
+    "description": "Just another newtab extension",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "permissions" : [
+        "management",
+        "tabs",
+        "topSites"
+    ],
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+    "options_page": "options.html",
+    "background": {
+        "scripts": [ "./js/jquery-2.1.1.min.js" ]
+    },
+    "offline_enabled": true
+}

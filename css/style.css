@@ -1,0 +1,53 @@
+/**
+ * 2014-05-20 01:57
+ * Phoenix Nemo <i at phoenixlzx dot com>
+ * License MIT | http://opensource.org/licenses/MIT
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(/img/1653588.jpg); */
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+div#topSites {
+    height: 3em;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+ul#topSites li {
+    display: inline;
+    margin: 0.4em;
+}
+
+ul#topSites li a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3em;
+    text-decoration-color: #FFFFFF;
+}
+
+a.top {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #3e4558;
+    padding: 0.2em;
+}
+
+a.top:hover {
+    border: 1px solid #a2c5ff;
+    background-color: rgba(192, 234, 255, 0.60);
+    -webkit-box-shadow: 0 0 15px #61a4ff;
+    box-shadow: 0 0 15px #61a4ff;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
