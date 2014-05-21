@@ -18,11 +18,11 @@ function init() {
 
         // set background
         var images = [
+            '001.jpg',
             '002.jpg',
+            '003.jpg',
             '004.jpg',
-            '005.jpg',
-            '007.jpg',
-            '008.jpg'
+            '005.jpg'
         ];
         $('body').css({'background-image': 'url(/img/bg/' + images[Math.floor(Math.random() * images.length)] + ')' });
 
