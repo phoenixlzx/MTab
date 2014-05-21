@@ -4,8 +4,6 @@
     "version": "0.0.1",
     "manifest_version": 2,
     "permissions" : [
-        "management",
-        "tabs",
         "topSites"
     ],
     "chrome_url_overrides" : {
