@@ -8,10 +8,25 @@ function init() {
 
     chrome.topSites.get(function(topSitesArray) {
 
-        var sites = [];
+        var sites = [],
+            i = 0;
 
-        for (var i = 0; i <= 7; i++) {
-            sites.push('<li><a href="' + topSitesArray[i].url + '" class="top">' + topSitesArray[i].title + '</a></li>');
+        if (topSitesArray.length >= 8) {
+
+            for (i = 0; i <= 7; i++) {
+
+                sites.push('<li><a href="' + topSitesArray[i].url + '" class="top">' + topSitesArray[i].title + '</a></li>');
+
+            }
+
+        } else {
+
+            for (i = 0; i < topSitesArray.length ; i++) {
+
+                sites.push('<li><a href="' + topSitesArray[i].url + '" class="top">' + topSitesArray[i].title + '</a></li>');
+
+            }
+
         }
 
         $('ul#topSites').append(sites);
