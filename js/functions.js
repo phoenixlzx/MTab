@@ -37,7 +37,10 @@ function init() {
             '002.jpg',
             '003.jpg',
             '004.jpg',
-            '005.jpg'
+            '005.jpg',
+	    '006.jpg',
+	    '007.jpg',
+	    '008.jpg'
         ];
         $('body').css({'background-image': 'url(/img/bg/' + images[Math.floor(Math.random() * images.length)] + ')' });
 
